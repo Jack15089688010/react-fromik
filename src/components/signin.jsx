@@ -2,10 +2,10 @@ import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as Yup from "yup";
 import { message } from 'antd'
-import { signIn } from '../services/user'
-import {
-  Link
-} from "react-router-dom";
+// import { signIn } from '../services/user'
+// import {
+//   Link
+// } from "react-router-dom";
 
 export default function SignIn(props) {
 	const initialValues = {
